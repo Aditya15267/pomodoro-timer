@@ -1,7 +1,7 @@
 import time
 import argparse
 
-def pomodoro_timer(work_duration=25, short_break=5, cycles=2):
+def pomodoro_timer(work_duration=25, short_break=5, cycles=4):
     """Simple Pomodoro Timer"""
     for cycle in range(1, cycles + 1):
         print(f"\nCycle {cycle}: Time to work! ({work_duration} minutes)")
